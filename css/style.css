@@ -233,19 +233,13 @@ footer p {
     color: #a8b2d1;
 }
 
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 1.8rem;
-    }
-    .hero p {
-        font-size: 1rem;
-    }
-    .exp-header {
-        flex-direction: column;
-    }
-    nav {
-        gap: 10px;
-    }
+ @media (max-width: 768px) { 
+        /*.foundation-grid { grid-template-columns: 1fr; } */
+        .hero h1 { font-size: 1.8rem; }
+        .hero p { font-size: 1rem; }
+        .exp-header { flex-direction: column; }
+        nav { gap: 8px; }
+        nav a { font-size: 0.75rem; padding: 4px; }
 }
 
 /* === PROJECT CARDS === */
