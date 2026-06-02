@@ -246,6 +246,8 @@ footer p {
     nav {
         gap: 10px;
     }
+}
+
 /* === PROJECT CARDS === */
 .projects-grid {
     display: grid;
